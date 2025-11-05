@@ -1,0 +1,86 @@
+/*
+
+Properties to use:
+- display
+- flex-direction
+- justify-content
+- align-items
+- gap
+- order
+- flex-grow
+
+- padding
+
+*/
+
+/* Your code here... */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#basics .content .example {
+    display: flex;
+}
+
+.subsection {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#alignment .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.justify-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.align-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-grow {
+    display: flex;
+    flex-direction: row;
+}
+
+.box.grow-1 {
+    flex-grow: 1;
+}
+
+.box.grow-2 {
+    flex-grow: 2;
+}
+
+.box.grow-3 {
+    flex-grow: 2;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+}
+
+.box.order-1 {
+    order: 1;
+}
+
+.box.order-2 {
+    order: 2;
+}
+
+.box.order-3 {
+    order: 3;
+}
